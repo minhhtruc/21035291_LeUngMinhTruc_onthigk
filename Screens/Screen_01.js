@@ -3,7 +3,7 @@ import { Button, TouchableOpacity } from 'react-native'
 import { Text } from 'react-native'
 import { Image } from 'react-native'
 import { View } from 'react-native'
-import { TextInput } from 'react-native-web'
+import { TextInput } from 'react-native'
 const Screen_01 = ({ navigation })  => {
     const [isLoading, setIsLoading] = useState(false)
     const [account, setAccount] = useState([])
