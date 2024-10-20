@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { ActivityIndicator, Image, Text, TouchableOpacity } from 'react-native'
 import { View } from 'react-native'
-import { FlatList, ScrollView, TextInput } from 'react-native-web'
+import { FlatList, ScrollView, TextInput } from 'react-native'
 
 const Screen_02 = ({ navigation, route }) => {
     const [isLoading, setIsLoading] = useState(false)
